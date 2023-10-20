@@ -1,0 +1,396 @@
+body {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+
+.package_header_title h5:before {
+    background: #45b34a;
+}
+
+.package_header_title h1{
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 46px;
+    color: #222;
+    font-weight: 700; 
+}
+.package_header_title h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    margin-bottom: 0.5rem;
+    color: #5a5a5a;
+
+}
+.package_header_title .title_header  h5:before {
+    background: #45b34a;
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 12px;
+    left: -4rem;
+}
+.package_header_title .title_header h5:after {
+    background: #45b34a;
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 12px;
+    right: -4rem;
+}
+
+
+.download-btn {
+    color: white;
+    height: 45px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #45b34a;
+    outline: none !important;
+    line-height: 24px;
+    border-radius: 20px;
+    border: none !important;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    top: 2.5rem;
+    right: 8rem;
+    transform: translate(0, -32%);
+    padding: 0 1rem;
+}
+.download-btn:hover{
+    background:#1e2637;
+
+}
+
+.padding{
+    padding: 5.25rem;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.package_section{
+        position: relative;
+        margin-top: 50px;
+        transition: height 1s ease-in-out;
+        background-image: url(../img/pricing.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 5.25rem;
+        padding-bottom: 1rem !important;
+
+        background-size: contain;
+        position: relative;
+        padding: 0;
+    }
+
+/* ------ Col 1 ----------- */
+
+.package_price {
+    position: relative;
+    background-color: #fff;
+    padding: 24px 16px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    min-height: 790px;
+}
+
+.seo_standard, .seo_professional, .seo_premium, .premium_plus {
+    height: 100%;
+    min-height: 0px;
+    position: relative;
+}
+
+.package_content .seo_list {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    grid-template-rows: 220px 275px 475px 275px 140px 255px 20px auto;
+}
+
+.package p.seo_info {
+    text-align: center;
+    height: 50px;
+}
+
+.package p.pricing span.month {
+    font-size: 16px;
+}
+
+.package_content .package_list .manager p {
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0;
+    border: none;
+}
+
+.package_content .package_list .time_frame p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0rem;
+}
+.package_content .package_list .time_frame p span {
+    font-weight: 400;
+}
+
+/* .pricing_table_btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+} */
+
+.package_content .seo_btn {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.plan_btn {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #45b34a;
+    color: #fff !important;
+    outline: none !important;
+    line-height: 24px;
+    border-radius: 20px;
+    border: none !important;
+    transition: 0.8s ease-in-out;
+}
+.plan_btn a{
+    text-decoration: none;
+}
+.plan_btn:hover{
+    background:#1e2637;
+    ;
+}
+
+.seo_vat p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: italic;
+}
+/* ------ Col 2 ------------ */
+
+.package_price .best_value {
+    height: 40px;
+    width: 100%;
+    background-color: #45b34a;
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.package_price .best_value P {
+    height: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    line-height: 40px;
+}
+.standard {
+    border-radius: 0px 0px 20px 20px;
+}
+.package {
+    border-bottom: 2px dashed #828282;
+    margin-bottom: 1.125rem;
+}
+.package p.pricing span {
+    font-size: 24px;
+    font-weight: 600;
+}
+.package h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.package p.pricing {
+    color: #45b34a;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Poppins, sans-serif;
+    color: #666;
+    transition: all 0.5s ease;
+}
+
+.package_content .package_list .initial_setup .list {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    line-height: 1.75rem;
+    position: relative;
+}
+
+.package_content .package_list .initial_setup {
+    margin-bottom: 0.5rem;
+}
+.package_content .package_list .initial_setup h3 {
+    font-size: 1rem;
+    font-weight: 640;
+    text-transform: capitalize;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    line-height: 35px;
+}
+
+.package_content .package_list .initial_setup .list span i {
+    color: #65da2e;
+    font-size: 1rem;
+}
+
+.package_content .package_list .initial_setup .list span i.times {
+    color: #da392e;
+    font-size: 1rem;
+}
+
+.package_content .package_list .initial_setup .list .hover {
+    text-align: left;
+    white-space: normal;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: initial;
+    line-height: 20px;
+    box-shadow: 0 4px 20px -7px rgba(0, 0, 0, 0.65);
+    border: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fafafa;
+    border-radius: 5px;
+    color: #333;
+    min-width: 350px;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.package_content .package_list .initial_setup .list .hover:before {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.package_content .package_list .initial_setup .list .hover li {
+    list-style: circle;
+  }
+  .package_content .package_list .initial_setup .list:hover .hover {
+    display: block;
+    height: auto;
+  }
+
+.seo_pricing_btn {
+    position: relative;
+    /* margin: 0; */
+}
+.pricing-table-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+/* ------------- Col 4 ------------- */
+
+.premium_btn {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.premium_plus_btn {
+    height: 45px;
+    width: 170px;
+    background-color: #45b34a;
+    border: none !important;
+    outline: none !important;
+    border-radius: 20px;
+    transition: background-color 0.8s ease-in-out;
+}
+.premium_plus_btn a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.premium_plus_btn:hover{
+    background: #1e2637;
+    ;
+}
+
+/* -------------- Extra ---------- */
+
+
+p {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Poppins, sans-serif;
+    color: rgb(102, 102, 102);
+    transition: all 0.5s ease 0s;
+}
